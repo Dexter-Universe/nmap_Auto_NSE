@@ -3,7 +3,7 @@ Automating nmap scans with service-based NSE (Nmap Script Engine) scanning funct
 
 A tool for Automating Infrastructure Vunlerability Assessment with automating nmap enumeration with service based NSE (Nmap Script Engine) script scans according to each service that identified from scan. 
 
-Also you can import nmap output (.xml file) and it will initiate service-based NSE script scans for each service.
+Also you can import nmap output (.xml file) and it will initiate service-based NSE script scans for each IPs.
 
 
 It is an interactive tool. 
