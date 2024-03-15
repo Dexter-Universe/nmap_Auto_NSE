@@ -8,7 +8,7 @@ Also you can import nmap output (.xml file) and it will initiate service-based N
 
 It is an interactive tool. 
 
-You can give IPs for scanning as txt file or single IP, and it will do a full port tcp scan, udp scan, and script vuln scan. After the tcp scan, the tool will fetch the details from the nmap output.xml file and initiate service-based script scans as per each service detected on ips. 
+You can give IPs for scanning as txt file or single IP, it will do a full port tcp scan, udp scan, and script vuln scan. After the tcp scan, the tool will fetch the details from the nmap output.xml file and initiate service-based script scans as per each service detected on ips. 
 
 It will save all scan output to the same location. 
 
