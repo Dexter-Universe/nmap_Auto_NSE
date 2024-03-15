@@ -33,22 +33,27 @@ Output names, if batch :
 Output names, if single ip :
 	
  	1. Tcp scan output will be save as - IP1tcp.xml, IP1tcp.nmap, IP1tcp.gnmap
+  
 	2. Udp scan output will be save as - IP1udp.xml, IP1udp.nmap, IP1udp.gnamp
+ 
 	3. Vuln scan output will be save as - IP1vuln.xml, IP1vuln.nmap, IP1vuln.gnamp
+ 
 	4. Simple scan output will be save as - IP1simple.xml, IP1simple.nmap, IP1simple.gnamp
+ 
 	5. Service based scan output will be save as - IP1<service_name>NSE.xml, IP1<service_name>NSE.nmap, IP1<service_name>NSE.gnamp
 
 Output names, if you were input .xml file,
 	
  	1. Service scan output will be save as - <batch_number><service_name>NSE.xml, <batch_number><service_name>NSE.nmap, <batch_number><service_name>NSE.gnamp
-	(If you are import .xml file, at that time it will prompt you to provide batch number)
+	
+ 	(If you are import .xml file, at that time it will prompt you to provide batch number)
 
 
 #Scan Types
 ----------
-1. All ------------------------------------->  Full port tcp scan without ping, udp scan, script vuln scan and service based script scan
+1. All ------------------------------------------>  Full port tcp scan without ping, udp scan, script vuln scan and service based script scan
 2. TCP Scan (without ping, 0-65535)--------->  Full port tcp scan without ping.
-3. TCP scan With Service Based Script Scan-->  Full prt tcp scan without ping.
+3. TCP scan With Service Based Script Scan->  Full prt tcp scan without ping.
 4. UDP Scan--------------------------------->  Top 1000 ports udp scan.
 5. Vuln Script Scan------------------------->  Nmap NSE script vuln scan.
 6. Simple Scan------------------------------>  Simple tcp scan without ping. (nmap -sV -v -Pn -T4 -oA <batch_number>simple <ip>)
