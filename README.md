@@ -63,4 +63,4 @@ Output names, if you were input .xml file,
 -----
 It it an interactive tool, so you choose the options.
 
-	pyhon nmap_Auto_NSE+.py
+	python nmap_Auto_NSE+.py
