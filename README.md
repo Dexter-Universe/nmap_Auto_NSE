@@ -1,4 +1,4 @@
-# nmap_Auto_NSE+
+# nmap_Auto_NSE
 Automating nmap scans with service-based NSE (Nmap Script Engine) scanning functionality
 
 A tool for Automating Infrastructure Vunlerability Assessment with automating nmap enumeration with service based NSE (Nmap Script Engine) script scans according to each service that identified from scan. 
