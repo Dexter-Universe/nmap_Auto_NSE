@@ -53,7 +53,7 @@ Output names, if you were input .xml file,
 ----------
 1. All ------------------------------------------>  Full port tcp scan without ping, udp scan, script vuln scan and service based script scan
 2. TCP Scan (without ping, 0-65535)--------->  Full port tcp scan without ping.
-3. TCP scan With Service Based Script Scan->  Full prt tcp scan without ping.
+3. TCP scan With Service Based Script Scan->  Full port tcp scan without ping.
 4. UDP Scan--------------------------------->  Top 1000 ports udp scan.
 5. Vuln Script Scan------------------------->  Nmap NSE script vuln scan.
 6. Simple Scan------------------------------>  Simple tcp scan without ping. (nmap -sV -v -Pn -T4 -oA <batch_number>simple <ip>)
