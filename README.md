@@ -16,6 +16,16 @@ It will save all scan output to the same location.
 If you already have an nmap .xml output file, then you can directly initiate service-based NSE scans (for this, you may need to select Mode 2).
 
 
+✨ Features:
+
+1. Automated Service-Based Script Scans: Leveraging nmap's output.xml file or real-time TCP scan results, nmap_Auto_NSE identifies services running on target IPs and initiates service-based script scans tailored to each detected service, enhancing accuracy and efficiency.
+
+2. Automated Vulnerability Assessment: With seamless integration of nmap, nmap_Auto_NSE automates full port TCP and UDP scans, as well as script-based vulnerability scans, providing comprehensive insights into network vulnerabilities.
+
+3. Platform Agnostic: Compatible with diverse operating systems and network infrastructures, ensuring versatility and accessibility for all cybersecurity professionals.
+
+
+
 Every scans output will be save on the same directory. And the output name will like below:
 
 Output names, if batch :
